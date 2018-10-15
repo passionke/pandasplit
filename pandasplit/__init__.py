@@ -33,7 +33,6 @@ class GroupWithValue:
         self.pos = 0
 
     def next(self, value):
-        print("sss" + str(value))
         if self.tmp_value is None:
             self.tmp_value = value
         self.tmp_count = self.tmp_count + 1
